@@ -3,6 +3,7 @@ import '../styles/gallery.css';
 import ProjectTall from './ProjectTall';
 import ProjectLong from './ProjectLong';
 import Link from 'next/link';
+import { goalsy, gyft, sudoku } from '../myProjects';
 
 
 const scentricImage = "https://portfoliolisa.s3-us-west-1.amazonaws.com/goalsy/thumbnailVertical.png";
@@ -25,20 +26,24 @@ const ProjectContainer: React.FC = () => {
     <div>
       <div className="project-container">
         <div>
-          <Link href={`/projects/2`}>
-          <ProjectTall thumbnail={scentricImage} notes={scentricNotes} />
+          <Link href={`/project/goalsy`}>
+          <ProjectTall project={goalsy}/>
           </Link>
-          <ProjectTall thumbnail={scentricImage} notes={scentricNotes} />
+          <ProjectTall project={goalsy}/>
         </div>
         <div>
-          <ProjectLong thumbnail={rexImage} notes={rexNotes} />
-          <ProjectLong thumbnail={tictactoeImage} notes={tictactoeNotes} />
-          <ProjectLong thumbnail={sudokuImage} notes={sudokuNotes} />
+          <Link href={`/project/gyft`}>
+          <ProjectLong project={gyft} />
+          </Link>
+          <Link href={`/project/sudoku`}>
+          <ProjectLong project={sudoku} />
+          </Link>
+          {/* <ProjectLong thumbnail={sudokuImage} notes={sudokuNotes} /> */}
         </div>
-        <div>
+        {/* <div>
           <ProjectTall thumbnail={gyftImage} notes={gyftNotes} />
           <ProjectTall thumbnail={mealLoggerImage} notes={mealLoggerNotes} />
-        </div>
+        </div> */}
       </div>
     </div>
 

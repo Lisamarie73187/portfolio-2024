@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           <FaEnvelope className="text-gray-400 hover:text-red-800 text-3xl" />
         </a>
       </div>
-      <div className="mt-auto border">
+      <div className="mt-auto">
     <p className="text-center text-gray-500 text-sm pt-8 pb-5">
       &copy; 2024 Lisa Marie Herzberg. All rights reserved.
     </p>
