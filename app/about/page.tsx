@@ -19,7 +19,7 @@ const AboutMe: React.FC = () => {
         that bring ideas to life. Alongside that, I&apos;ve developed solid experience 
         in creating reliable back-end systems with Node.js. I love being part 
         of the process that turns concepts into real products and take pride 
-        in what I create. Im big on effective communication, staying organized, 
+        in what I create. I&apos;m big on effective communication, staying organized, 
         and never hesitating to ask questions and learn. Plus, I&apos;ve got a keen eye 
         for detail and always aim for those pixel-perfect designs.        
         </p>
