@@ -12,6 +12,15 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      margin: {
+        '30': "16vw",
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        youngSerif: ['Young Serif', 'serif'],
+        openSans: ['Open Sans', 'sans-serif'],
+        newsCycle: ['News Cycle', 'sans-serif'],
+      },
     },
   },
   plugins: [],
