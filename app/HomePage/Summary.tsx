@@ -6,7 +6,7 @@ const Summary: React.FC = () => {
       <div className="text-left max-w-2xl">
         <p className="text-3xl font-openSans font-bold text-gray-700 ">
           I am a dedicated full-stack developer specializing in React and React Native, 
-          with a strong foundation in JavaScript, TypeScript, and Node.js. 
+          with a strong foundation in TypeScript, and Node.js. 
         </p>
       </div>
     </div>

@@ -19,13 +19,13 @@ const Footer: React.FC = () => {
       </ul>
             
       <div className="flex flex-row justify-between w-[10%] ">
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <a href="https://linkedin.com/in/lisaherzberg" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <FaLinkedin className="text-gray-400 hover:text-blue-800 text-3xl" />
         </a>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a href="https://github.com/Lisamarie73187" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <FaGithub className="text-gray-400 hover:text-gray-600 text-3xl" />
         </a>
-        <a href="mailto:your.email@example.com" aria-label="Email">
+        <a href="mailto:lisamarieherzberg@gmail.com" aria-label="Email">
           <FaEnvelope className="text-gray-400 hover:text-red-800 text-3xl" />
         </a>
       </div>
