@@ -14,12 +14,12 @@ const AboutMe: React.FC = () => {
       <div className="w-1/2 text-left max-w-lg pl-4">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">About Me</h2>
         <p className="text-lg text-gray-700 mb-4">
-        I've been on an exciting journey in software development, where I've honed my skills 
+        I&apos;ve been on an exciting journey in software development, where I&apos;ve honed my skills 
         in React and React Native to build dynamic, user-friendly interfaces 
-        that bring ideas to life. Alongside that, I've developed solid experience 
+        that bring ideas to life. Alongside that, I&apos;ve developed solid experience 
         in creating reliable back-end systems with Node.js. I love being part 
         of the process that turns concepts into real products and take pride 
-        in what I create. I'm big on effective communication, staying organized, 
+        in what I create. Im big on effective communication, staying organized, 
         and never hesitating to ask questions and learn. Plus, I&apos;ve got a keen eye 
         for detail and always aim for those pixel-perfect designs.        
         </p>
