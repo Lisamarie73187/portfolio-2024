@@ -51,6 +51,22 @@ export const sudoku = {
       }
 }
 
+export const mealLogger = {
+    id: 'mealLogger',
+    title: "Meal Logger",
+    mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/meal+logger/mealLoggerThumbnail.jpg",
+    images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/meal+logger/mealLogggerSlideOne.jpg"],
+    techStack: ["React-native", "react hooks", "Nutritionix API"],
+    details: `I am developed a simple nutrition tracking app that integrates with API. 
+    I designed the logo and interface, but the project isn't fully completed due to life. 
+    I plan to add more features in the future, including an AI-powered recipe search and meal planning.`,
+    features:`Nutritionix API integration, search for food, add to meal, and track your daily intake.`,
+    date: "July 2019",
+    links: {
+        github: "https://github.com/Lisamarie73187/meal-logger",
+      }
+}
+
 export const projectsData = [
-    goalsy, gyft, sudoku
+    goalsy, gyft, sudoku, mealLogger
 ]

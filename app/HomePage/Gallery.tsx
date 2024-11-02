@@ -3,7 +3,7 @@ import '../styles/gallery.css';
 import ProjectTall from './ProjectTall';
 import ProjectLong from './ProjectLong';
 import Link from 'next/link';
-import { goalsy, gyft, sudoku } from '../myProjects';
+import { goalsy, gyft, mealLogger, sudoku } from '../myProjects';
 
 
 const scentricImage = "https://portfoliolisa.s3-us-west-1.amazonaws.com/goalsy/thumbnailVertical.png";
@@ -29,7 +29,6 @@ const ProjectContainer: React.FC = () => {
           <Link href={`/project/goalsy`}>
           <ProjectTall project={goalsy}/>
           </Link>
-          <ProjectTall project={goalsy}/>
         </div>
         <div>
           <Link href={`/project/gyft`}>
@@ -40,10 +39,12 @@ const ProjectContainer: React.FC = () => {
           </Link>
           {/* <ProjectLong thumbnail={sudokuImage} notes={sudokuNotes} /> */}
         </div>
-        {/* <div>
-          <ProjectTall thumbnail={gyftImage} notes={gyftNotes} />
-          <ProjectTall thumbnail={mealLoggerImage} notes={mealLoggerNotes} />
-        </div> */}
+        <div>
+        <Link href={`/project/mealLogger`}>
+          <ProjectTall project={mealLogger} />
+        </Link>
+          {/* <ProjectTall thumbnail={mealLoggerImage} notes={mealLoggerNotes} /> */}
+        </div>
       </div>
     </div>
 
