@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Header: React.FC = () => {
@@ -7,13 +8,13 @@ const Header: React.FC = () => {
       <nav>
         <ul className="flex space-x-10 text-gray-700 font-sans text-xl">
           <li>
-            <a href="/" className="hover:text-cyan-600 font-newsCycle">Home</a>
+            <Link href="/" className="hover:text-cyan-600 font-newsCycle">Home</Link>
           </li>
           <li>
-            <a href="/about" className="hover:text-cyan-600 font-newsCycle">About</a>
+            <Link href="/about" className="hover:text-cyan-600 font-newsCycle">About</Link>
           </li>
           <li>
-            <a href="/HerzbergResume.pdf" className="hover:text-cyan-600 font-newsCycle">Resume</a>
+            <Link href="/HerzbergResume.pdf" className="hover:text-cyan-600 font-newsCycle">Resume</Link>
           </li>
         </ul>
       </nav>

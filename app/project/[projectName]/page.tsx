@@ -1,5 +1,6 @@
 import React from 'react';
 import { projectsData } from '../../myProjects';
+import Link from 'next/link';
 
 const ProjectPage = ({ params }: { params: { projectName: string } }) => {
   const project = projectsData.find(project => project.id === params.projectName) as {
@@ -47,24 +48,24 @@ const ProjectPage = ({ params }: { params: { projectName: string } }) => {
             <div className="text-gray-700 text-2xl font-bold pt-8">Check it out</div>
             <div className="flex pt-4 space-x-4">
               {project.links.github && (
-                <a
+                <Link
                   href={project.links.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
                 >
                   GitHub
-                </a>
+                </Link>
               )}
               {project.links.live && (
-                <a
+                <Link
                   href={project.links.live}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
                 >
                   Live Demo
-                </a>
+                </Link>
               )}
             </div>
           </>
