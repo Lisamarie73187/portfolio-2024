@@ -2,23 +2,27 @@ import React from 'react';
 import { projectsData } from '../../myProjects';
 import Link from 'next/link';
 
-const ProjectPage = ({ params }: { params: { projectName: string } }) => {
-  const project = projectsData.find(project => project.id === params.projectName) as {
-    id: string;
-    title: string;
-    mainImage: string;
-    images: string[];
-    techStack: string[];
-    details: string;
-    features: string;
-    date: string;
-    links?: {
-      github?: string;
-      live?: string;
-    };
-  };
 
-  console.log(project);
+interface Project {
+  id: string;
+  title: string;
+  mainImage: string;
+  images: string[];
+  techStack: string[];
+  details: string;
+  features: string;
+  date: string;
+  links?: {
+    github?: string;
+    live?: string;
+  };
+}
+
+type tParams = Promise<{ projectName: string }>;
+
+const ProjectPage = async (props: { params: tParams }) => {
+  const { projectName } = await props.params;
+  const project = projectsData.find((project) => project.id === projectName) as Project;
 
   if (!project) return <p>Project not found</p>;
 
