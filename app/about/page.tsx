@@ -20,15 +20,15 @@ const AboutMe: React.FC = () => {
         in creating reliable back-end systems with Node.js. I love being part 
         of the process that turns concepts into real products and take pride 
         in what I create. I'm big on effective communication, staying organized, 
-        and never hesitating to ask questions and learn. Plus, I’ve got a keen eye 
+        and never hesitating to ask questions and learn. Plus, I&apos;ve got a keen eye 
         for detail and always aim for those pixel-perfect designs.        
         </p>
         <p className="text-lg text-gray-700">
-        When I’m not busy coding, you can find me outdoors staying active through running, 
+        When I&apos;m not busy coding, you can find me outdoors staying active through running, 
         hiking, biking, playing volleyball (when I am in San Diego) and snowboarding. 
-        I’m also looking forward to trying paddle boarding soon. I love creating things beyond code, 
-        with hobbies like knitting and photography. I’m always open 
-        to connecting, so feel free to reach out anytime—I’d love to chat!     
+        I&apos;m also looking forward to trying paddle boarding soon. I love creating things beyond code, 
+        with hobbies like knitting and photography. I&apos;m always open 
+        to connecting, so feel free to reach out anytime—I&apos;d love to chat!     
         </p>
       </div>
     </div>
