@@ -3,7 +3,7 @@ import '../styles/gallery.css';
 import ProjectTall from './ProjectTall';
 import ProjectLong from './ProjectLong';
 import Link from 'next/link';
-import { goalsy, gyft, mealLogger, openMindChat, sudoku } from '../myProjects';
+import { goalsy, gyft, mealLogger, openMindChat, sudoku, whatsForDinner } from '../myProjects';
 
 
 const ProjectContainer: React.FC = () => {
@@ -21,6 +21,9 @@ const ProjectContainer: React.FC = () => {
           </Link>
           <Link href={`/project/sudoku`}>
           <ProjectLong project={sudoku} />
+          </Link>
+          <Link href={`/project/whatsForDinner`}>
+          <ProjectLong project={whatsForDinner} />
           </Link>
         </div>
         <div>

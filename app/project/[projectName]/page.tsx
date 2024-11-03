@@ -40,14 +40,14 @@ const ProjectPage = async (props: { params: tParams }) => {
         ))}
       </div>
       <div className="md:w-2/3">
-        <h1 className="text-3xl font-bold text-gray-800">{project.title}</h1>
-        <p className="text-gray-500 text-xl pt-2">{project.date}</p>
-        <div className="text-gray-700 text-2xl font-bold pt-8">Project Details</div>
-        <p className="text-gray-700 text-xl pt-2">{project.details}</p>
-        <div className="text-gray-700 text-2xl font-bold pt-8">Project Features</div>
-        <p className="text-gray-700 text-xl pt-2">{project.features}</p>
-        <div className="text-gray-700 text-2xl font-bold pt-8">Tech Stack</div>
-        <p className="text-gray-500 text-xl pt-2">{project.techStack.join(', ')}</p>
+        <h1 className="text-3xl font-bold text-gray-700">{project.title}</h1>
+        <p className="text-gray-600 text-xl pt-2">{project.date}</p>
+        <div className="text-gray-600 text-2xl font-bold pt-8">Project Details</div>
+        <p className="text-gray-600 text-xl pt-2">{project.details}</p>
+        <div className="text-gray-600 text-2xl font-bold pt-8">Project Features</div>
+        <p className="text-gray-600 text-xl pt-2">{project.features}</p>
+        <div className="text-gray-600 text-2xl font-bold pt-8">Tech Stack</div>
+        <p className="text-gray-600 text-xl pt-2">{project.techStack.join(', ')}</p>
         {project.links && (project.links.github || project.links.live) && (
           <>
             <div className="text-gray-700 text-2xl font-bold pt-8">Check it out</div>

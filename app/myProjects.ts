@@ -85,6 +85,23 @@ export const openMindChat = {
       }
 }
 
+export const whatsForDinner = {
+    id: 'whatsForDinner',
+    title: "What's For Dinner",
+    mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/whatsForDinner/main.png",
+    images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/whatsForDinner/REcipes.png", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/whatsForDinner/Beef.png","https://lisaportfolio2024.s3.us-west-1.amazonaws.com/whatsForDinner/whatsForDinnerFeatures.gif"],
+    techStack: ["React",  "Framer Motion", "Node.js", "Express", "OpenAI"],
+    details: `"WTF Should I Make for Dinner?" is a unique AI-powered recipe generator that adds a 
+    playful touch to meal planning. It not only helps users find dinner ideas 
+    tailored to their preferences but also entertains them with funny, snarky 
+    comments as they filter their options.`,
+    features:`AI-powered chatbot, filter dietary preferences and whats in your fridge. It also generates random buttons to filter out a specific ingredient and/or cuisine.`,
+    date: "October 2024",
+    links: {
+        github: "https://github.com/Lisamarie73187/whats-for-dinner",
+      }
+}
+
 export const projectsData = [
-    goalsy, gyft, sudoku, mealLogger, openMindChat
+    goalsy, gyft, sudoku, mealLogger, openMindChat, whatsForDinner
 ]
