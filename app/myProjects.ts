@@ -66,6 +66,25 @@ export const mealLogger = {
       }
 }
 
+export const openMindChat = {
+    id: 'openMindChat',
+    title: "Open Mind Chat",
+    mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/OpenMindChatMain.gif",
+    images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/OPCMobileView.gif", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/chatConversations.gif", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/realLogin.gif"],
+    techStack: ["React", "Next.js", "Typescript", "Tailwind.css", "Open AI","Firebase", "MongoDB"],
+    details: `Open Mind Chat is a mental wellness platform designed as both a website and mobile app, 
+    developed with Next.js for a seamless experience across platforms. Users can 
+    chat with an AI-powered assistant to talk through both good and bad days, 
+    providing a supportive space for reflection and conversation. Chatbot 
+    is still in training to enhance its support capabilities.`,
+    features:`AI-powered chatbot, user authentication(Web Only), stores user data with MongoDB, Future Features: chat history, journaling feature.`,
+    date: "October 2024",
+    links: {
+        github: "https://github.com/Lisamarie73187/open-mind-chat",
+        githubMobile: "https://github.com/Lisamarie73187/open-mind-chat-mobile",
+      }
+}
+
 export const projectsData = [
-    goalsy, gyft, sudoku, mealLogger
+    goalsy, gyft, sudoku, mealLogger, openMindChat
 ]

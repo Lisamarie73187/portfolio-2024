@@ -14,6 +14,7 @@ interface Project {
   date: string;
   links?: {
     github?: string;
+    githubMobile?: string;
     live?: string;
   };
 }
@@ -28,7 +29,7 @@ const ProjectPage = async (props: { params: tParams }) => {
 
   return (
     <div className="flex justify-center items-start mx-30 pt-20 mt-20 pb-16">
-      <div className="flex flex-col md:w-full mr-16">
+      <div className="flex flex-col lg:w-full mr-16">
         {project.images.map((image, index) => (
           <img
             key={index}
@@ -38,7 +39,7 @@ const ProjectPage = async (props: { params: tParams }) => {
           />
         ))}
       </div>
-      <div className="md:w-full">
+      <div className="md:w-2/3">
         <h1 className="text-3xl font-bold text-gray-800">{project.title}</h1>
         <p className="text-gray-500 text-xl pt-2">{project.date}</p>
         <div className="text-gray-700 text-2xl font-bold pt-8">Project Details</div>
@@ -59,6 +60,16 @@ const ProjectPage = async (props: { params: tParams }) => {
                   className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
                 >
                   GitHub
+                </Link>
+              )}
+              {project.links.githubMobile && (
+                <Link
+                  href={project.links.githubMobile}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+                >
+                  GitHub Mobile
                 </Link>
               )}
               {project.links.live && (
