@@ -16,6 +16,8 @@ interface Project {
     github?: string;
     githubMobile?: string;
     live?: string;
+    appStoreiOS?: string;
+    appStoreAndroid?: string;
   };
 }
 
@@ -80,6 +82,26 @@ const ProjectPage = async (props: { params: tParams }) => {
                 className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
               >
                 Live Demo
+              </Link>
+            )}
+            {project.links.appStoreiOS && (
+              <Link
+                href={project.links.appStoreiOS}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+              >
+                App Store iOS
+              </Link>
+            )}
+            {project.links.appStoreAndroid && (
+              <Link
+                href={project.links.appStoreAndroid}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+              >
+                App Store Android
               </Link>
             )}
           </div>

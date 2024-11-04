@@ -12,6 +12,8 @@ interface ProjectProps {
     links?: {
       github?: string;
       live?: string;
+      appStoreiOS?: string;
+      appStoreAndroid?: string;
     };
   }
 }

@@ -5,7 +5,7 @@ export const goalsy = {
     mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/goalsy/goalsMain.jpg",
     images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/goalsy/goalsyDesktop.jpg", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/goalsy/goalsySliderFeatures.jpg"],
     techStack: ["React", "Node", "Auth0", "Express", "PostgreSQL"],
-    details: `Goalsy is a user-friendly web app for setting and tracking goals. 
+    details: `Personal Project: Goalsy is a user-friendly web app for setting and tracking goals. 
      This was my first every full stack project. I started working on a mobile version 
     that included Lottie for animation.`,
     features: `Create goals, add tasks to those goals, 
@@ -42,7 +42,7 @@ export const sudoku = {
     mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/sudoku/sudokuThumbnail.jpg",
     images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/sudoku/SudokuSlideOne.jpg", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/sudoku/SudokuSlideTwo.jpg"],
     techStack: ["react"],
-    details: `Simple sudoku game built with React.`,
+    details: `Personal project a simple sudoku game built with React.`,
     features:`Choose your difficulty level, add notes, and check your answers.`,
     date: "Sept 2019",
     links: {
@@ -57,7 +57,7 @@ export const mealLogger = {
     mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/meal+logger/mealLoggerThumbnail.jpg",
     images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/meal+logger/mealLogggerSlideOne.jpg"],
     techStack: ["React-native", "react hooks", "Nutritionix API"],
-    details: `I developed a simple nutrition tracking app that integrates with API. 
+    details: `Personal Project: I developed a simple nutrition tracking app that integrates with API. 
     I designed the logo and interface, but the project isn't fully completed due to life. `,
     features:`Nutritionix API integration, search for food, add to meal, and track your daily intake.`,
     date: "July 2019",
@@ -69,10 +69,10 @@ export const mealLogger = {
 export const openMindChat = {
     id: 'openMindChat',
     title: "Open Mind Chat",
-    mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/OpenMindChatMain.gif",
-    images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/OPCMobileView.gif", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/chatConversations.gif", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/realLogin.gif"],
+    mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/Main.png",
+    images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/mobileView.png", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/chatConversations.gif", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/realLogin.png"],
     techStack: ["React", "Next.js", "Typescript", "Tailwind.css", "Open AI","Firebase", "MongoDB"],
-    details: `Open Mind Chat is a mental wellness platform designed as both a website and mobile app, 
+    details: `Personal Project: Open Mind Chat is a mental wellness platform designed as both a website and mobile app, 
     developed with Next.js for a seamless experience across platforms. Users can 
     chat with an AI-powered assistant to talk through both good and bad days, 
     providing a supportive space for reflection and conversation. Chatbot 
@@ -91,7 +91,7 @@ export const whatsForDinner = {
     mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/whatsForDinner/main.png",
     images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/whatsForDinner/REcipes.png", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/whatsForDinner/Beef.png","https://lisaportfolio2024.s3.us-west-1.amazonaws.com/whatsForDinner/whatsForDinnerFeatures.gif"],
     techStack: ["React",  "Framer Motion", "Node.js", "Express", "OpenAI"],
-    details: `"WTF Should I Make for Dinner?" is a unique AI-powered recipe generator that adds a 
+    details: `Personal Project: "WTF Should I Make for Dinner?" is a unique AI-powered recipe generator that adds a 
     playful touch to meal planning. It not only helps users find dinner ideas 
     tailored to their preferences but also entertains them with funny, snarky 
     comments as they filter their options.`,
@@ -102,6 +102,26 @@ export const whatsForDinner = {
       }
 }
 
+export const petsmart = {
+    id: 'petsmart',
+    title: "PetSmart",
+    mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/Petsmart/petsmartmain.gif",
+    images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/Petsmart/anythingForPets.gif"],
+    techStack: ["React-Native", "Typescript"],
+    details: `At PetSmart, I contributed to the development of the e-commerce mobile app from its early stages through to its successful launch on both Android and iOS app stores.`,
+    features:`I was responsible for building major features, including most of the shopping cart functionality,
+     adding curbside pickup and DoorDash integration. Additionally, 
+     I worked on the detailed product pages and implemented geolocation 
+     features for store identification. While I was involved in various 
+     aspects of the app, these features were the main components I contributed 
+     to extensively. `,
+    date: "June 2019",
+    links: {
+        appStoreiOS: "https://apps.apple.com/us/app/petsmart/id1175467091",
+        appStoreAndroid: "https://play.google.com/store/apps/details?id=com.petsmart.consumermobile&hl=en_US&pli=1",
+      }
+}
+
 export const projectsData = [
-    goalsy, gyft, sudoku, mealLogger, openMindChat, whatsForDinner
+    goalsy, gyft, sudoku, mealLogger, openMindChat, whatsForDinner, petsmart
 ]

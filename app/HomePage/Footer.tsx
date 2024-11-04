@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
         </li>
       </ul>
             
-      <div className="flex flex-row justify-between w-[10%] xs:w-[40%] md:w-[20%]">
+      <div className="flex flex-row justify-between w-[10%] xs:w-[40%] md:w-[20%] lg:w-[10%]">
         <Link href="https://linkedin.com/in/lisaherzberg" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <FaLinkedin className="text-gray-400 hover:text-blue-800 text-3xl" />
         </Link>
