@@ -30,7 +30,7 @@ const ProjectPage = async (props: { params: tParams }) => {
   if (!project) return <p>Project not found</p>;
 
   return (
-    <div className="flex flex-col xs:flex-col lg:flex-row justify-center items-start mx-30 pt-20 mt-20 pb-16 xs:mt-0 xs:pt-10">
+    <div className="flex flex-col xs:flex-col lg:flex-row justify-center items-start mx-30 pt-20 mt-20 pb-16 xs:mt-0 xs:pt-10 lg:pt-20 lg:mt-20">
     <div className="flex flex-col lg:w-full mr-0 md:mr-16">
       {project.images.map((image, index) => (
         <img
