@@ -30,11 +30,11 @@
 
 @media (max-width: 700px) {
     .image-long {
-        width: 80vw;
+        width: 70vw;
         margin: 20px 0;
     }
     .image-tall {
-        width: 80vw;
+        width: 70vw;
         margin: 20px;
     }
     
