@@ -70,7 +70,7 @@ export const openMindChat = {
     id: 'openMindChat',
     title: "Open Mind Chat",
     mainImage: "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/Main.png",
-    images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/mobileView.png", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/chatConversations.gif", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/realLogin.png"],
+    images: ["https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/mobileView.png", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/chaConversations.png", "https://lisaportfolio2024.s3.us-west-1.amazonaws.com/OpenMindChat/realLogin.png"],
     techStack: ["React","React-Native", "Next.js", "Typescript", "Tailwind.css", "Open AI", "Firebase", "MongoDB"],
     details: `Personal Project: Open Mind Chat is a mental wellness platform designed as both a website and mobile app, 
     developed with Next.js for a seamless experience across platforms. Users can 
