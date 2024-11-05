@@ -1,6 +1,7 @@
 import React from 'react';
 import { projectsData } from '../../myProjects';
 import Link from 'next/link';
+import '../../styles/header.css';
 
 
 interface Project {
@@ -30,7 +31,12 @@ const ProjectPage = async (props: { params: tParams }) => {
   if (!project) return <p>Project not found</p>;
 
   return (
-    <div className="flex flex-col xs:flex-col lg:flex-row justify-center items-start mx-30 pt-20 mt-20 pb-16 xs:mt-0 xs:pt-10 lg:pt-20 lg:mt-20">
+    <div className="flex flex-col xs:flex-col lg:flex-row justify-center items-start 
+    mx-30 
+    xs:pt-10 lg:pt-20
+    xs:mt-0 sm:mt-20 md:mt-20 lg:mt-20
+    pb-16" 
+    >
     <div className="flex flex-col lg:w-full mr-0 md:mr-16">
       {project.images.map((image, index) => (
         <img
@@ -59,7 +65,7 @@ const ProjectPage = async (props: { params: tParams }) => {
                 href={project.links.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 custom-hover-effect"
               >
                 GitHub
               </Link>
@@ -69,7 +75,7 @@ const ProjectPage = async (props: { params: tParams }) => {
                 href={project.links.githubMobile}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 custom-hover-effect"
               >
                 GitHub Mobile
               </Link>
@@ -79,7 +85,7 @@ const ProjectPage = async (props: { params: tParams }) => {
                 href={project.links.live}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 custom-hover-effect"
               >
                 Live Demo
               </Link>
@@ -89,9 +95,9 @@ const ProjectPage = async (props: { params: tParams }) => {
                 href={project.links.appStoreiOS}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 custom-hover-effect"
               >
-                App Store iOS
+                App Store
               </Link>
             )}
             {project.links.appStoreAndroid && (
@@ -99,9 +105,9 @@ const ProjectPage = async (props: { params: tParams }) => {
                 href={project.links.appStoreAndroid}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+                className="px-5 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 custom-hover-effect"
               >
-                App Store Android
+                Google Play Store
               </Link>
             )}
           </div>

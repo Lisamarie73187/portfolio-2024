@@ -5,19 +5,40 @@
     flex-wrap: wrap;
     margin: 40px;
     padding-top: 60px;
+    padding-bottom: 100px;
   }
 
 .image-long {
     width: 25vw;
     margin: 20px 0;
     box-shadow: 6px -3px 17px -3px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .image-tall {
     width: 21vw;
     margin: 20px;
     box-shadow: 6px -3px 17px -3px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.image-long :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-tall :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px) {
+    .project-container {
+        padding-top: 20px;
+
+    }
+}
 
 @media (max-width: 700px) {
     .project-container {
@@ -37,5 +58,26 @@
         width: 70vw;
         margin: 20px;
     }
-    
 }
+
+  /* .project-container img {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  } */
+  
+  /* .project-container div:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  } */
+  
+  /* Optional: Add some visual overlay on hover */
+  /* .project-container div:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+  } */

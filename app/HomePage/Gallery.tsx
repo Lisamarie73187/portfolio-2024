@@ -14,9 +14,6 @@ const ProjectContainer: React.FC = () => {
           <Link href={`/project/goalsy`}>
             <ProjectTall project={goalsy}/>
           </Link>
-          {/* <Link href={`/project/petsmart`}>
-            <ProjectTall project={petsmart}/>
-          </Link> */}
         </div>
         <div>
           <Link href={`/project/gyft`}>

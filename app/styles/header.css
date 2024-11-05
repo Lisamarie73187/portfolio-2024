@@ -1,0 +1,18 @@
+.custom-hover-effect {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-hover-effect:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+  }
+
+  .custom-icon-hover {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+.custom-icon-hover:hover {
+        transform: scale(1.08);
+}

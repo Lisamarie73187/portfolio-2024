@@ -24,6 +24,11 @@ const config: Config = {
         openSans: ['Open Sans', 'sans-serif'],
         newsCycle: ['News Cycle', 'sans-serif'],
       },
+      variants: {
+        extend: {
+          scale: ['hover'],
+        },
+      },
     },
   },
   plugins: [],
